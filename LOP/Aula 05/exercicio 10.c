@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void main() {
     char cidade[50];
     int eleitores, votos;
     float porcentagem;
@@ -18,6 +18,4 @@ int main() {
 
     printf("\nCidade: %s\n", cidade);
     printf("Participacao na eleicao: %.2f%%\n", porcentagem);
-
-    return 0;
 }
