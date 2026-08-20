@@ -1,0 +1,1 @@
+console.log("Eu sou o bando de dados em inglês!")
