@@ -1,0 +1,10 @@
+[{"id":1, "titulo":"A Metamorfose", "autor":"Franz Kafka", "ano":1915, "genero":"Novela, Literatura Cl\u00e1ssica"},
+ {"id":2, "titulo":"Moby Dick", "autor":"Herman Melville", "ano":1851, "genero":"Romance Psicol\u00f3gico, Fic\u00e7\u00e3o, \u00c9pico"},
+ {"id":3, "titulo":"O Rei de Amarelo", "autor":"Robert W. Chambers", "ano":1895, "genero":"Terror, Fic\u00e7\u00e3o Supernatural, Conto, Horror C\u00f3smico"},
+ {"id":4, "titulo":"Ponto de Vista do Leitor Onisciente", "autor":"singNsong", "ano":2018, "genero":"A\u00e7\u00e3o, Fantasia, Metafic\u00e7\u00e3o"},
+ {"id":5, "titulo":"Dr\u00e1cula", "autor":"Bram Stoker", "ano":1897, "genero":"Terror, Fic\u00e7\u00e3o, Romance"},
+ {"id":6, "titulo":"O Estrangeiro", "autor":"Albert Camus", "ano":1942, "genero":"Romance, Fic\u00e7\u00e3o"},
+ {"id":7, "titulo":"Don Quixote", "autor":"Miguel de Cervantes", "ano":1615, "genero":"Romance, S\u00e1tira, Par\u00f3dia"},
+ {"id":8, "titulo":"Morro dos Ventos Uivantes", "autor":"Emily Bront\u00eb", "ano":1847, "genero":"Romance, Fic\u00e7\u00e3o G\u00f3tica, Trag\u00e9dia"},
+ {"id":9, "titulo":"Lorde dos Mist\u00e9rios", "autor":"Yuan Ye", "ano":2020, "genero":"Horror C\u00f3smico, Misticismo, Fic\u00e7\u00e3o, A\u00e7\u00e3o"},
+ {"id":10, "titulo":"\u00c1gua Viva", "autor":"Clarice Lispector", "ano":1973, "genero":"Fic\u00e7\u00e3o"}]

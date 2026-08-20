@@ -1,0 +1,12 @@
+[{"id":1, "marca":"FIAT", "modelo":"Pulse", "cor":"Rosa", "ano":2021, "valor":116990.0},
+ {"id":2, "marca":"Chevrolet", "modelo":"Astra Advantage 2.0", "cor":"Verde", "ano":2011, "valor":33000.0},
+ {"id":3, "marca":"Peugeot", "modelo":"208 Active 1.5 (Manual)", "cor":"Tiffany", "ano":2015, "valor":37500.0},
+ {"id":4, "marca":"Hyundai", "modelo":"Creta Limited Safety 1.0 Turbo", "cor":"Verde Vomito", "ano":2025, "valor":130500.0},
+ {"id":5, "marca":"Volkswagen", "modelo":"Tera High TSI Turbo", "cor":"Amarelo", "ano":2026, "valor":129990.0},
+ {"id":6, "marca":"Porsche", "modelo":"911 Carrera", "cor":"Vinho", "ano":2026, "valor":930000.0},
+ {"id":7, "marca":"Pagani", "modelo":"Utopia V12 6.0 BiTurbo (864 cv)", "cor":"Branco", "ano":2025, "valor":60000000.0},
+ {"id":8, "marca":"Rolls Royce", "modelo":"Droptail (Edi\u00e7\u00e3o \u00fanica La Rose Noire)", "cor":"Vermelho", "ano":2024, "valor":171000000.0},
+ {"id":9, "marca":"Toyota", "modelo":"SW4 Diamond 2.8 Diesel (4x4)", "cor":"Tangerina", "ano":2026, "valor":440000.0},
+ {"id":10, "marca":"Chevrolet", "modelo":"Celta Spirit 1.0", "cor":"Banana", "ano":2011, "valor":24000.0},
+ {"id":11, "marca":"Fiat", "modelo":"Uno Mille Fire 1.0", "cor":"Ma\u00e7\u00e3", "ano":2010, "valor":19500.0},
+ {"id":12, "marca":"Koenigsegg", "modelo":"Jesko Absolut", "cor":"Ferrugem", "ano":2025, "valor":28000000.0}]

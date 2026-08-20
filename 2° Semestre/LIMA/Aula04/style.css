@@ -1,0 +1,53 @@
+/* Este sinal serve para que a alteração sirva para o site inteiro (*{}) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: #64d9f6;
+    color: blueviolet;
+}
+/*Cabeçalho*/
+header{
+    background: #333;
+    color: rgb(141, 117, 248);
+    text-align: center;
+    padding: 16px 0;
+}
+header h1{
+    margin-bottom: 8px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: none;
+}
+nav ul li a:hover{
+    animation: arcoiris 1.5s infinite linear;
+    cursor: pointer;
+}
+@keyframes arcoiris {
+    0% { color: lightblue; }
+    25% { color: cyan; }
+    50% { color: rgb(0, 0, 255) }
+    75% { color: blueviolet; }
+    100% { color: lightblue; }
+};
+
+section{
+    padding: 24px;
+    margin: 16px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
