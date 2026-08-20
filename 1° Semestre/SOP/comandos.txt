@@ -1,0 +1,12 @@
+cd - Caminhar entre as pastas
+dir - Listar pastas
+mkdir - Criar pastas
+rmdir - Remover pastas vazias
+rmdir /s - Remove pastas com subpastas
+type nul > "nome" - Cria um bloco de notas com o nome que desejar
+notepad - Abre o bloco de notas
+cd.. - Volta entre as pastas
+color - Muda a cor do cmd
+color h - Lista de cores
+ping - Testar a conexão com o remetente
+ipconfig - Informações da rede do sistema
