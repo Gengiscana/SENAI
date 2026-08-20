@@ -1,0 +1,19 @@
+{
+    "name": "pedidos_medieval",
+    "version": "1.0.0",
+    "main": "servidor/server.js",
+    "scripts": {
+        "dev": "node servidor/server.js"
+    },
+    "keywords": [
+        "Medieval",
+        "Pedidos"
+    ],
+    "author": "guilherme",
+    "license": "ISC",
+    "description": "Projeto de exemplo para aprendizado",
+    "type": "commonjs",
+    "dependencies": {
+        "express": "^5.2.1"
+    }
+}
