@@ -1,0 +1,14 @@
+id,id_consulta,id_veterin�rio,nome,porte,tipo,animal,data,custo_consulta,custo_veterin�rio,total
+1,1,1,Rog�rio Alface,M�dio,Dom�stico,Bulldog Ingl�s,10/10/2025,120,120,240
+2,1,2,Alberto Bolo,Pequeno,Dom�stico,Gato,10/10/2025,120,115,235
+3,5,11,Roberto Farofa,Pequeno,Silvestre,Papagaio,11/10/2025,350,350,700
+4,5,12,Tanos Pirigui,Grande,Silvestre,On�a Pintada,11/10/2025,650,325,975
+5,2,3,Pulubi Jiguili,Grande,Dom�stico,Pastor Alem�o,11/10/2025,360,300,660
+6,3,7,Donudi Plabo,M�dio,Dom�stico,Gato Si�mes,11/10/2025,500,480,980
+7,3,8,Trietel Gunese,Pequeno,Silvestre,Grilo,12/10/2025,550,490,1040
+8,3,6,Vitor Parafael,Pequeno,Silvestre,Tardigrado,12/10/2025,1200,500,1700
+9,4,10,Renaldo Plofado,Pequeno,Dom�stico,Shih Tzu,12/10/2025,200,200,400
+10,4,9,Firugui Vlagudir,Grande,Silvestre,Elefante-indiano,12/10/2025,2000,200,2200
+,,,,,,,,,,
+1,6,1,Rog�rio Alface,M�dio,Dom�stico,Bulldog Ingl�s,16/10/2025,50,120,170
+2,6,2,Alberto Bolo,Pequeno,Dom�stico,Gato,17/10/2025,50,115,165

@@ -28,3 +28,5 @@
 | Veterinario | custo | decimal | 10,2 | Custo pelo serviço |
 ## Dados de teste
 [Consultas](consultas.CSV)
+[Veterinarios](veterinarios.CSV)
+[Clientes](clientes.CSV)
