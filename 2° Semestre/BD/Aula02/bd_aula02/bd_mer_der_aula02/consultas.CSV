@@ -1,5 +1,5 @@
 id,tipo,descri��o,valor,grande_porte
-1,Geral,Check-ups, aplica��o de vacinas, receitas comuns e orienta��es gerais em hor�rio comercial,120,144
+1,Geral,Check-ups,aplica��o de vacinas, receitas comuns e orienta��es gerais em hor�rio comercial,120,144
 2,Especialistas,Dermatologia, Cardiologia, Oncologia, Ortopedia, Oftalmologia, Endocrinologia, etc.,300,360
 3,Emerg�ncia/Plant�o,Atendimentos fora do hor�rio comercial,500,600
 4,Consulta Domiciliar,Quando o veterin�rio vai at� a sua resid�ncia,200,240
