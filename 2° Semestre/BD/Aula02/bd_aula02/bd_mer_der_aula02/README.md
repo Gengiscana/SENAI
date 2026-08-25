@@ -26,3 +26,5 @@
 | Veterinario | formação | varchar | 40 | Em que o veterinario é formado |
 | Veterinario | nome | varchar | 40 | Nome do veterinario |
 | Veterinario | custo | decimal | 10,2 | Custo pelo serviço |
+## Dados de teste
+[Consultas](consultas.CSV)
