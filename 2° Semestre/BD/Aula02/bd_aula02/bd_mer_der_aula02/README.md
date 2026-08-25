@@ -15,4 +15,14 @@
 | Cliente | id_consulta | int | 11 | Chave estrangeira, referência: Consulta (id) |
 | Cliente | id_veterinario | int | 11 | Chave estrangeira, referência: Veterinario (id) |
 | Cliente | nome | varchar | 40 | Nome do cliente |
-| Cliente | Porte | varchar | 40 | Porte do animal do cliente |
+| Cliente | porte | varchar | 40 | Porte do animal do cliente |
+| Cliente | tipo | varchar | 40 | Se o animal é doméstico ou silvestre |
+| Cliente | animal | varchar | 40 | Qual é o animal do cliente |
+| Cliente | data | date | | Data de quando foi registrado o atendimento |
+| Cliente | custo_consulta | decimal | 10,2 | Quanto foi pago pela consulta |
+| Cliente | custo_veterinario | decimal | 10,2 | Quanto foi pago pelo serviço do veterinario |
+| Cliente | total | decimal | 10,2 | Valor total somando o dois custos |
+| Veterinario | id | int | 11 | Chave primária |
+| Veterinario | formação | varchar | 40 | Em que o veterinario é formado |
+| Veterinario | nome | varchar | 40 | Nome do veterinario |
+| Veterinario | custo | decimal | 10,2 | Custo pelo serviço |
