@@ -1,7 +1,7 @@
-id;tipo;descrição;valor;grande_porte;;;;
-1;Geral;Check-ups, aplicação de vacinas, receitas comuns e orientações gerais em horário comercial;120;144;;;;
-2;Especialistas;Dermatologia, Cardiologia, Oncologia, Ortopedia, Oftalmologia, Endocrinologia, etc.;300;360;;;;
-3;Emergência/Plantão;Atendimentos fora do horário comercial;500;600;;;;
-4;Consulta Domiciliar;Quando o veterinário vai até a sua residência;200;240;;;;
-5;Animais Silvestres;Atendimento especializado para aves, roedores, répteis e coelhos;350;420;;;;
-6;Retorno Veterinário;Reavaliação para checar a melhora do animal em até 15 dias;50;60;;;;
+id,tipo,descriï¿½ï¿½o,valor,grande_porte,,,,
+1,Geral,Check-ups, aplicaï¿½ï¿½o de vacinas, receitas comuns e orientaï¿½ï¿½es gerais em horï¿½rio comercial,120,144,,,,
+2,Especialistas,Dermatologia, Cardiologia, Oncologia, Ortopedia, Oftalmologia, Endocrinologia, etc.,300,360,,,,
+3,Emergï¿½ncia/Plantï¿½o,Atendimentos fora do horï¿½rio comercial,500,600,,,,
+4,Consulta Domiciliar,Quando o veterinï¿½rio vai atï¿½ a sua residï¿½ncia,200,240,,,,
+5,Animais Silvestres,Atendimento especializado para aves, roedores, rï¿½pteis e coelhos,350,420,,,,
+6,Retorno Veterinï¿½rio,Reavaliaï¿½ï¿½o para checar a melhora do animal em atï¿½ 15 dias,50,60,,,,
