@@ -5,13 +5,19 @@
         "paciente":"Felipe da Silva",
         "peso":123,
         "altura":146
-    }
+    },
     {
         "id":2,
         "data":"2005-01-05T03:33:33Z",
         "paciente":"Vibor Farizato",
         "peso":35,
         "altura":202
+    },
+    {
+        "id":3,
+        "data":"2009-11-27T12:47:23Z",
+        "paciente":"Rafael Bueno",
+        "peso":78,
+        "altura":177
     }
-    
 ]
