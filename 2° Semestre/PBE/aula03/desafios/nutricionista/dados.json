@@ -1,23 +1,30 @@
 [
     {
         "id":1,
-        "data":"2008-08-20T16:48:12Z",
+        "data":"2008-08-20",
         "paciente":"Felipe da Silva",
         "peso":123,
-        "altura":146
+        "altura":1.46
     },
     {
         "id":2,
-        "data":"2005-01-05T03:33:33Z",
+        "data":"2005-01-05",
         "paciente":"Vibor Farizato",
-        "peso":35,
-        "altura":202
+        "peso":23,
+        "altura":2.02
     },
     {
         "id":3,
-        "data":"2009-11-27T12:47:23Z",
+        "data":"2009-11-27",
         "paciente":"Rafael Bueno",
         "peso":78,
-        "altura":177
+        "altura":1.77
+    },
+    {
+        "id":4,
+        "data":"2007-03-12",
+        "paciente":"Gusto Farael",
+        "peso":98,
+        "altura":1.84
     }
 ]

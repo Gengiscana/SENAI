@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutricionista Gengis</title>
+</head>
+<body>
+    <center>
+        <h1>Registrar Paciente</h1>
+        <form action="http://127.0.0.1:3000" method="post">
+            <input type="number" placeholder="Identidade" name="id" required><br><br>
+            <input type="date" placeholder="Data de Nascimento" name="data" required><br><br>
+            <input type="text" placeholder="Nome" name="paciente" required><br><br>
+            <input type="number" placeholder="Peso (KG)" name="peso" step="0.01" required><br><br>
+            <input type="number" placeholder="Altura (metros)" name="altura" step="0.01" required><br><br>
+            <button type="reset">Limpar</button>
+            <button type="submit">Registrar</button>
+        </form>
+    </center>
+</body>
+</html>
