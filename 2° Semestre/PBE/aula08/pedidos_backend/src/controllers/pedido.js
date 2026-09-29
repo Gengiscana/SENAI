@@ -16,8 +16,39 @@ const listar = (req, res) => {
     subtotais()
     res.json(pedidos)
 }
-const alterar = (req, res) => {}
-const excluir = (req, res) => {}
+const alterar = (req, res) => {
+    const id = req.params.id
+    const lista = req.body
+    let status = 0
+
+    pedidos.forEach((pedidos) => {
+        if(pedidos.id == id) {
+            status = 1
+            pedidos.cpf = lista.cpf
+            pedidos.nome = lista.nome
+        }
+    })
+    if (status == 1) {
+        res.send("Pedido atualizado")
+    }else{
+        res.status(404).send("Pedido não encontrado")
+    }
+}
+const excluir = (req, res) => {
+    const id = req.params.id
+    let status = 0
+    pedidos.forEach((pedido, indice) => {
+        if(pedido.id == id){
+            status = 1
+            pedidos.splice(indice)
+        }
+    })
+    if(status == 1 ){
+        res.send("Pedido excluido")
+    }else{
+        res.status(404).send("Pedido não encontrado")
+    }
+}
 
 module.exports = {
     criar, listar, alterar, excluir
