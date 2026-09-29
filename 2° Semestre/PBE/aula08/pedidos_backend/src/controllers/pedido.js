@@ -24,12 +24,14 @@ const alterar = (req, res) => {
     pedidos.forEach((pedidos) => {
         if(pedidos.id == id) {
             status = 1
-            pedidos.cpf = lista.cpf
-            pedidos.nome = lista.nome
+            pedidos.cliente_id = lista.cliente_id
+            pedidos.produto = lista.produto
+            pedidos.preco = lista.preco
+            pedidos.quantidade = lista.quantidade
         }
     })
     if (status == 1) {
-        res.send("Pedido atualizado")
+        res.json(pedidos)
     }else{
         res.status(404).send("Pedido não encontrado")
     }
@@ -40,11 +42,11 @@ const excluir = (req, res) => {
     pedidos.forEach((pedido, indice) => {
         if(pedido.id == id){
             status = 1
-            pedidos.splice(indice)
+            pedidos.splice(indice, 1)
         }
     })
     if(status == 1 ){
-        res.send("Pedido excluido")
+        res.json(pedidos)
     }else{
         res.status(404).send("Pedido não encontrado")
     }

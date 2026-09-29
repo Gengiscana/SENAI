@@ -29,7 +29,7 @@ const alterar = (req, res) => {
         }
     })
     if (status == 1) {
-        res.send("Cliente atualizado")
+        res.json(clientes)
     }else{
         res.status(404).send("Cliente não encontrado")
     }
@@ -40,11 +40,11 @@ const excluir = (req, res) => {
     clientes.forEach((cliente, indice) => {
         if(cliente.id == id){
             status = 1
-            clientes.splice(indice)
+            clientes.splice(indice, 1)
         }
     })
     if(status == 1 ){
-        res.send("Cliente excluido")
+        res.json(clientes)
     }else{
         res.status(404).send("Cliente não encontrado")
     }
