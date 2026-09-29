@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: brown;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(23, 230, 40, 1);
+}
+
+.card h1 {
+    font-size: 32px;
+    color: pink;
+}
+
+.card p {
+    color: goldenrod;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3d011d;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: green;
+    color: darksalmon;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 30s ease, background 10s ease-in-out, box-shadow 2s ease;
+}
+
+button:hover {
+    background-color: cyan;
+    transform: translateY(-5px);
+    box-shadow:
+        0 5px 15px rgba(0, 255, 42, 0.6),
+        0 10px 30px rgba(233, 236, 5, 0.8),
+        inset 0 2px 5px rgba(196, 80, 241, 1);
+}
+
+#mensagem {
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: center;
+    color: darkseagreen;
+}
