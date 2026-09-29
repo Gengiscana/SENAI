@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "item": "Mark 42 (usado)",
+        "local": "Garagem",
+        "data": "2026-09-17",
+        "valor":30000000,
+        "patrimonio": "PT758"
+    },
+    {
+        "id": 2,
+        "item": "Jarvis",
+        "local": "Industrias Stark",
+        "data": "2026-09-17",
+        "valor":125700000,
+        "patrimonio": "PT091"
+    },
+    {
+        "id": 3,
+        "item": "Durandal",
+        "local": "Biblioteca da Ruina",
+        "data": "2026-09-17",
+        "valor": 425000,
+        "patrimonio": "PT531"
+    }
+]

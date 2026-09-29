@@ -1,0 +1,17 @@
+body {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background-color: blue;
+}
+
+section {
+    padding: 12px;
+    margin: 40px 16px 16px;
+    background: rgba(0, 104, 201, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 134, 201);
+}
