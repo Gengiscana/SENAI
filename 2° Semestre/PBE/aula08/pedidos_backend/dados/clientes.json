@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "cpf":"123.456.789-00",
+        "nome":"Junin do Barro"
+    },
+    {
+        "id":2,
+        "cpf":"432.589.239-21",
+        "nome":"Raymond Blade"
+    },
+    {
+        "id":3,
+        "cpf":"328.690.122-33",
+        "nome":"Gorman Wilson"
+    }
+]
