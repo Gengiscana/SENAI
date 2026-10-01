@@ -1,30 +1,17 @@
 [
     {
         "id":1,
-        "cliente_id":1,
-        "produto":"Banana Verde",
-        "preco":3.99,
-        "quantidade":10
+        "cliente_id":2,
+        "data":"2026-10-01"
     },
     {
         "id":2,
         "cliente_id":3,
-        "produto":"Chia",
-        "preco":30,
-        "quantidade":2
+        "data":"2026-09-28"
     },
     {
         "id":3,
         "cliente_id":2,
-        "produto":"Panetone",
-        "preco":69.99,
-        "quantidade":1
-    },
-    {
-        "id":4,
-        "cliente_id":2,
-        "produto":"Banana Verde",
-        "preco":3.99,
-        "quantidade":20
+        "data":"2026-10-02"
     }
 ]

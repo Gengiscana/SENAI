@@ -1,8 +1,9 @@
 const pedidos = require("../../dados/pedidos.json")
+const itens = require("../../dados/itens.json")
 
-function subtotais(){
-    pedidos.forEach(p=>{
-        p.subtotal = p.quantidade * p.preco
+function total() {
+    pedidos.forEach(p => {
+        p.itens = itens.filter(item => item.pedido_id == p.id)
     })
 }
 
@@ -13,28 +14,35 @@ const criar = (req, res) => {
     res.status(201).json(dados)
 }
 const listar = (req, res) => {
-    subtotais()
+    total()
     res.json(pedidos)
 }
 const alterar = (req, res) => {
-    const id = req.params.id
-    const lista = req.body
-    let status = 0
+    // const id = req.params.id
+    // const lista = req.body
+    // let status = 0
 
-    pedidos.forEach((pedidos) => {
-        if(pedidos.id == id) {
-            status = 1
-            pedidos.cliente_id = lista.cliente_id
-            pedidos.produto = lista.produto
-            pedidos.preco = lista.preco
-            pedidos.quantidade = lista.quantidade
-        }
+    // pedidos.forEach((pedidos) => {
+    //     if(pedidos.id == id) {
+    //         status = 1
+    //         pedidos.cpf = lista.cpf
+    //         pedidos.nome = lista.nome
+    //     }
+    // })
+    // if (status == 1) {
+    //     res.json(pedidos)
+    // }else{
+    //     res.status(404).send("pedido não encontrado")
+    // }
+    const id = req.params.id
+    const dados = req.body
+    const chaves = Object.keys(dados)
+    const pedido = pedidos.find((p) => p.id == id)
+
+    chaves.forEach((chaves) => {
+        pedido[chaves] = dados[chaves]
     })
-    if (status == 1) {
-        res.json(pedidos)
-    }else{
-        res.status(404).send("Pedido não encontrado")
-    }
+    res.json(pedidos)
 }
 const excluir = (req, res) => {
     const id = req.params.id
@@ -48,7 +56,7 @@ const excluir = (req, res) => {
     if(status == 1 ){
         res.json(pedidos)
     }else{
-        res.status(404).send("Pedido não encontrado")
+        res.status(404).send("pedido não encontrado")
     }
 }
 
