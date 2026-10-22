@@ -1,4 +1,4 @@
- const con = require('../db')
+const con = require('../db')
 
 const cadastrar = (req, res) => {
     const { usuarioId, cidade, tipoEvento, temperaturaMaxima, nivelImpacto } = req.body
@@ -32,7 +32,38 @@ const listar = (req, res) => {
     })
 }
 
+const atualizar = (req, res) => {
+    const { id } = req.params
+    const { usuarioId, cidade, tipoEvento, temperaturaMaxima, nivelImpacto } = req.body
+    const sql = 'UPDATE evento SET usuarioId = ?, cidade = ?, tipoEvento = ?, temperaturaMaxima = ?, nivelImpacto = ? WHERE id = ?'
+    con.query(sql, [usuarioId, cidade, tipoEvento, temperaturaMaxima, nivelImpacto, id], (err, results) => {
+        if (err) {
+            console.error(err)
+            res.status(500).json({ error: 'Erro ao cadastrar evento' })
+        } else if (results.affectedRows == 0) {
+            res.status(404).json({ error: 'Evento não encontrado' })
+        } else {
+            res.json({ message: 'Evento atualizado com sucesso', event: { id, ...req.body } })
+        }
+    })
+}
+
+const deletar = (req, res) => {
+    const { id } = req.params
+    const sql = 'DELETE FROM evento WHERE id = ?'
+    con.query(sql, [id], (err, results) => {
+        if (err) {
+            console.error(err)
+            res.status(500).json({ error: 'Erro ao deletar evento' })
+        } else {
+            res.json({ message: 'Evento deletado com sucesso', id})
+        }
+    })
+}
+
 module.exports = {
     cadastrar,
-    listar
+    listar,
+    atualizar,
+    deletar
 }

@@ -13,5 +13,7 @@ router.post('/usuarios', Usuario.cadastrar)
 router.get('/usuarios', Usuario.listar)
 router.post('/eventos', Evento.cadastrar)
 router.get('/eventos', Evento.listar)
+router.patch('/eventos/:id', Evento.atualizar)
+router.delete('/eventos/:id', Evento.deletar)
 
 module.exports = router

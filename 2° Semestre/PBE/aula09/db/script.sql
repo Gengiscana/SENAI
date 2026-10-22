@@ -20,9 +20,9 @@ alter table evento add constraint fk_registra
 foreign key (usuarioId) references usuario(id);
 
 insert into usuario (nome, email, senha) values
-('Maria Oliveira', 'maria.oliveira@email.com', password('senha123')),
-('Joao Silva', 'joao.silva@email.com', password('senha123')),
-('Ana Souza', 'ana.souza@email.com', password('senha123'));
+('Maria Piui', 'maria.oliveira@email.com', password('amorinhakwai')),
+('Joao Aura', 'joao.silva@email.com', password('tikitiki')),
+('Ana Souza', 'ana.souza@email.com', password('senhasecreta'));
 
 insert into evento (usuarioId, cidade, tipoEvento, temperaturaMaxima, data, nivelImpacto) values
 (1, 'Campinas', 'Onda de calor', 38.7, '2026-09-23', 'Alto'),
