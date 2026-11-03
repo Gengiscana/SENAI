@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    background-color: #000;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url(https://i.pinimg.com/originals/f6/7a/12/f67a122b8f6af771bcabd8db7c641c5e.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+header {
+    background: #00192e;
+    color: #fff;
+    padding: 30px 8%;
+    border-bottom: 4px solid #00f7ff;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+header p {
+    color: #00d9ff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.titulo-secao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.titulo-secao h2 {
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.titulo-secao p {
+    color: #00d9ff;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 12px 16px;
+    background: #0099ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d20c7;
+}
+
+.listar-jogos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+
+#mensagemVazia {
+    color: #00d9ff;
+}
+
+.card-jogo {
+    background: #040035;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #0c0481;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    color: #06f8d8;
+}
+
+.capa {
+    height: 170px;
+    background: #292320;
+    color: #01c6e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.info-jogo {
+    padding: 18px;
+}
+
+.info-jogo h3 {
+    margin-bottom: 8px;
+    color: #01c5f7;
+}
+
+.info-jogo p {
+    margin-top: 6px;
+    color: #049ff8;
+    overflow-wrap: anywhere;
+}
+
+.preco {
+    display: block;
+    color: #00fcfc;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+dialog {
+    width: min(90%, 420px);
+    margin: auto;
+    padding: 25px;
+    border: none;
+    border-radius: 12px;
+    color: #0063f7;
+    background: #000000;
+    border: 1px solid #0099ff;
+}
+
+dialog::backdrop {
+    background: #00000099;
+}
+
+dialog h2 {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 14px 0 6px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #00ccff;
+    border-radius: 6px;
+    font-size: 15px;
+    background: #000;
+    color: #00f7ff;
+}
+
+.acoes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+button.cancelar {
+    background: #e90000;
+    color: #ffffff;
+}
+
+button.cancelar:hover {
+    background: #a30b00;
+}
